@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model window</title>
+
+    <!-- fontAwesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <h1 class="title">GAME OF THRONES</h1>
+    <div class="buttons">
+    <button class="btn btn-one" id="btnone">JOHN SNOW</button>
+    <button class="btn btn-two" id="btntwo">DAENERYS TARGARYEN</button>
+    <button class="btn btn-three" id="btnthree">CERSEI LANNISTER</button>
+    </div>
+    
+    <div class="modal">
+        <div class="modal-window close " id="modalOne">
+            <div class="modal-text">
+                <img src="./images/jon.jpg" alt="" class="image">
+                <h1>JOHN SNOW</h1>
+                <h4>HOUSE OF STARK</h4>
+                <h4>KING IN THE NORTH</h4>
+            </div>
+            <button class="btn-close" id="btncloseOne">close</button>
+        </div>
+        <div class="modal-window  close " id="modalTwo">
+            <div class="modal-text">
+                <img src="./images/mother of dragon.jpg" alt="" class="image">
+                <h1>DAENERYS TARGARYEN</h1>
+                <h4>HOUSE OF DRAGON</h4>
+                <h4>QUEEN</h4>
+            
+            </div>
+            <button class="btn-close" id="btncloseTwo">close</button>
+        </div>
+        <div class="modal-window close " id="modalThree">
+            <div class="modal-text">
+                <img src="./images/cersei.jpg" alt="" class="image">
+                <h1>CERSEI LANNISTER</h1>
+                <h4>HOUSE OF LANNISTER</h4>
+                <h4>QUEEN OF KINGS LANDING</h4>
+            </div>
+            <button class="btn-close" id="btncloseThree">close</button>
+        </div>
+    </div>
+
+    
+    <!-- custom script -->
+    <script src="./scripts/script.js">
+        
+    </script>
+
+    
+</body>
+</html>
